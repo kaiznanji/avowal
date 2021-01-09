@@ -20,7 +20,7 @@ def compute():
 
 @app.route('/')
 def index():
-    return link
+    return render_template("index.html")
 
 
 if __name__ == '__main__':

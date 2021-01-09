@@ -2,7 +2,6 @@ import ast
 from flask import Flask, render_template, jsonify, request
 from handwritten_recognizer import k_point_rec
 from data import template
-from index import link
 
 
 app = Flask(__name__)
